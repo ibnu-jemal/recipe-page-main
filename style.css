@@ -164,10 +164,20 @@ font-weight: 700;
 
 }
 @media(min-width:768px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
     .container{
         width: 750px;
         border-radius: 15px;
-        height: 1705px;
+        min-height: 100vh;
+        margin-top: 68px;
+        margin-bottom: 68px;
     }
 
     .container img{
